@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import { Flex, Link, Heading, Text, List, ListItem } from "@chakra-ui/core"
+import { Flex, Link, Heading, List, ListItem } from "@chakra-ui/core"
 import { FaLinkedin, FaGithub, FaTwitter, FaFacebook } from "react-icons/fa"
 import { FiPenTool } from "react-icons/fi"
 
@@ -15,7 +15,7 @@ const IndexPage = () => (
         <Heading as="h1" size="xl">
           Ryo Kato
         </Heading>
-        <List spacing={3} p="0">
+        <List spacing={1} p="0">
           <ListItem>Software Engineer</ListItem>
           <ListItem>Video Game Player</ListItem>
           <ListItem>Novel Reader</ListItem>
